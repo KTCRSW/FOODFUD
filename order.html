@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .bill-container {
+      max-width: 600px;
+      margin: auto;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+
+    .header {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    .item span {
+      flex: 1;
+    }
+
+    .total {
+      margin-top: 20px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  </style>
+  <title>Your Bill</title>
+</head>
+<body>
+
+  <div class="bill-container">
+    <div class="header">
+      <h1>Your Company Name</h1>
+      <p>123 Main Street, Cityville, Country</p>
+    </div>
+
+    <div class="item">
+      <span>Item 1</span>
+      <span>$10.00</span>
+    </div>
+
+    <div class="item">
+      <span>Item 2</span>
+      <span>$15.00</span>
+    </div>
+
+    <div class="total">
+      <p>Total: $25.00</p>
+    </div>
+  </div>
+
+</body>
+</html>
